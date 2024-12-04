@@ -1,0 +1,14 @@
+- name: Using variables
+  hosts: all
+  vars:
+    domain: datapandas.com
+  become: true
+  tasks:
+  - name: Tell me the website you  are visiting
+    debug:
+      msg: The website we are visiting is "{{domain}}"
+  - name: password we are using
+    debug:
+      msg: This is my secured password "{{password}}"
+  - name: get ip address
+    shell: host "{{domain}}"

@@ -1,0 +1,27 @@
+---
+- hosts: all
+  become: true
+  ignore_errors: yes
+  tasks:
+  - name: find out operating system 1
+    shell: cat /etc/os-release
+    register: os1
+  - name: name of os1
+    debug:
+      msg: os1 "{{os1}}"
+  - name: find out operating system 2
+    command: uname -a
+    register: os2
+  - name: name of os2
+    debug:
+      msg: os2 "{{os2}}"
+  - name: install list of packages
+    yum:
+      name: ["wget", "vim", "zip", "unzip", "git", "httpd"]
+    when: ansible_facts["distribution"] == "Amazon"
+  - name: check system resources
+    shell: df -h
+    register: sysresource
+  - name: sys resources
+    debug:
+      msg: sysresource "{{sysresource}}"  

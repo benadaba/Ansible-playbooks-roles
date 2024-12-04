@@ -1,0 +1,8 @@
+- name: Install packages needed for our work
+  hosts: all
+  become: true
+
+  tasks:
+  - name: Install git wget zip
+    package:
+      name: ["wget","vim", "zip", "unzip", "git"]

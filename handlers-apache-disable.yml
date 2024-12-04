@@ -1,0 +1,49 @@
+- name: Installing apache on webservers 
+  hosts: webservers
+  become: true # run as root user
+  tasks:
+  - name: Install apache
+    yum: 
+      name: httpd 
+      state: present
+    notify:
+    - Start the server
+  - name: copy file to server
+    copy:
+      src: /home/ansible/index.html
+      dest: /var/www/html/
+    
+    
+  handlers:
+  - name: Start the server
+    service: name=httpd state=started
+
+- name: Install firewalld on all servers
+  hosts: all
+  become: true
+  tasks:
+  - name: firewalld
+    package:
+      name: firewalld
+      state: absent
+    notify:
+    - start firewalld
+  - name: Allow HTTP Traffic in firewalld
+    firewalld:
+      service: http
+      permanent: true
+      state: enabled
+    notify:
+    - reload firewalld
+  
+  
+  handlers:
+  - name: start firewalld
+    service:
+      name: firewalld
+      state: started
+      
+  - name: reload firewalld
+    service:
+      name: firewalld
+      state: reloaded

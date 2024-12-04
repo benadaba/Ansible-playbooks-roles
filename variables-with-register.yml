@@ -1,0 +1,19 @@
+- name: Using variables
+  hosts: all
+  vars:
+    password: dev123
+    domain: google.com
+  become: true
+  tasks:
+  - name: Tell me the website you  are visiting
+    debug:
+      msg: The website we are visiting is "{{domain}}"
+  - name: password we are using
+    debug:
+      msg: This is my secured password "{{password}}"
+  - name: get ip address
+    shell: host "{{domain}}"
+    register: outputofshellcommand
+  - name: display the ip address
+    debug:
+      msg: The ip address of "{{domain}}" =  "{{outputofshellcommand}}"

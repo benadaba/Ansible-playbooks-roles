@@ -1,0 +1,36 @@
+- name: Installing apache on webservers 
+  hosts: webservers
+  gather_facts: false
+  become: true # run as root user
+  tasks:
+  - name: Install apache
+    yum: 
+      name: httpd 
+      state: absent
+  - name: Start the server
+    service: name=httpd state=started
+    # service: 
+    #   name: httpd 
+    #   state: started
+  - name: copy file to server
+    copy:
+      src: /home/ansible/index.html
+      dest: /var/www/html/
+    
+
+- name: Install git on all servers
+  hosts: all
+  become: true
+  tasks:
+  - name: Install git on all servers
+    package:
+      name: git
+      state: absent
+      
+- name: Install wget on all servers
+  hosts: all
+  become: true
+  tasks:
+  - name: Install wget on all servers
+    package: name=wget state=absent
+
