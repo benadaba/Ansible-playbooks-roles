@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1733348717,,"wq"
+|2,0,1733349169,,"wq"
 :q!
 |2,0,1733348268,,"q!"
 :q
@@ -68,36 +68,52 @@
 |3,0,36,0,1,0,1732136078,"3"
 
 # File marks:
-'0  3  17  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
-|4,48,3,17,1733348717,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
-'1  2  17  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,49,2,17,1733348697,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
-'2  2  17  ~/DYNAMIC_INVENTORY/di-aws_ec2.yml
-|4,50,2,17,1733348678,"~/DYNAMIC_INVENTORY/di-aws_ec2.yml"
-'3  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
-|4,51,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
-'4  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
-|4,52,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
-'5  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
-|4,53,2,0,1733348268,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
-'6  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
-|4,54,2,0,1733348268,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
-'7  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
-|4,55,4,0,1733348247,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
-'8  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
-|4,56,4,0,1733348247,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+'0  9  17  ~/DYNAMIC_INVENTORY/di-aws_ec2.yml
+|4,48,9,17,1733349169,"~/DYNAMIC_INVENTORY/di-aws_ec2.yml"
+'1  3  17  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,49,3,17,1733348717,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+'2  2  17  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
+|4,50,2,17,1733348697,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
+'3  2  17  ~/DYNAMIC_INVENTORY/di-aws_ec2.yml
+|4,51,2,17,1733348678,"~/DYNAMIC_INVENTORY/di-aws_ec2.yml"
+'4  2  17  ~/DYNAMIC_INVENTORY/di-aws_ec2.yml
+|4,52,2,17,1733348678,"~/DYNAMIC_INVENTORY/di-aws_ec2.yml"
+'5  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,53,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+'6  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,54,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+'7  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,55,2,0,1733348268,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+'8  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,56,2,0,1733348268,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 '9  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
 |4,57,4,0,1733348247,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 
 # Jumplist (newest first):
+-'  9  17  ~/DYNAMIC_INVENTORY/di-aws_ec2.yml
+|4,39,9,17,1733349169,"~/DYNAMIC_INVENTORY/di-aws_ec2.yml"
+-'  2  17  ~/DYNAMIC_INVENTORY/di-aws_ec2.yml
+|4,39,2,17,1733349159,"~/DYNAMIC_INVENTORY/di-aws_ec2.yml"
 -'  3  17  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
 |4,39,3,17,1733348717,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  3  17  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,3,17,1733348717,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,2,29,1733348706,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
 |4,39,2,29,1733348706,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  2  17  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
 |4,39,2,17,1733348697,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
 -'  2  17  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
 |4,39,2,17,1733348697,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
+-'  2  17  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
+|4,39,2,17,1733348697,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
+-'  2  17  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
+|4,39,2,17,1733348697,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
+-'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
+|4,39,3,29,1733348683,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
+-'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
+|4,39,3,29,1733348683,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
 -'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
 |4,39,3,29,1733348683,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
 -'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
@@ -118,6 +134,22 @@
 |4,39,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
 |4,39,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  2  29  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,2,29,1733348312,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,2,0,1733348268,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,2,0,1733348268,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,2,0,1733348268,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,2,0,1733348268,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
 |4,39,2,0,1733348268,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  2  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
@@ -144,6 +176,32 @@
 |4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
 |4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348249,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348247,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348247,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348247,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,4,0,1733348247,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
 |4,39,4,0,1733348247,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  4  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
@@ -178,6 +236,32 @@
 |4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
 |4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
+-'  1  0  ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
+|4,39,1,0,1733348213,"~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml"
 -'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
 |4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
 -'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
@@ -206,92 +290,20 @@
 |4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
 -'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
 |4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  3  29  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,3,29,1733348187,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
--'  1  0  ~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml
-|4,39,1,0,1733348159,"~/DYNAMIC_INVENTORY/do-file-aws_ec2.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/DYNAMIC_INVENTORY/di-aws_ec2.yml
+	*	1733349168	0
+	"	9	17
+	^	9	18
+	.	9	17
+	+	9	20
+	+	3	32
+	+	2	29
+	+	3	17
+	+	2	17
+	+	9	17
 
 > ~/DYNAMIC_INVENTORY/dynamic-inventory-generator.yml
 	*	1733348716	0
@@ -312,17 +324,6 @@
 	"	2	17
 	^	2	18
 	.	2	17
-	+	2	29
-	+	3	17
-	+	2	17
-
-> ~/DYNAMIC_INVENTORY/di-aws_ec2.yml
-	*	1733348677	0
-	"	2	17
-	^	2	18
-	.	2	17
-	+	9	20
-	+	3	32
 	+	2	29
 	+	3	17
 	+	2	17
